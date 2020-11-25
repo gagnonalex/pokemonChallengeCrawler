@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Pokemon";
+  src: url("Pokemon Solid.ttf") format("truetype");
+}
+
+body {
+  /* background-image: url("https://www.toysrus.ca/on/demandware.static/-/Library-Sites-toys-global/default/dw2e724f52/images/pages/brand-pages/Pokemon-Desktop-Banner-1120x280-D.jpg"); */
+  background-image: url("../Frontend/Ressources/pokemonBackgroundCropped.jpg");
+   background-color: #80af72;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-family: "Pokemon", Fallback, sans-serif;
+  letter-spacing: 0.07em;
+  color: #fccf00;
+  font-size: 4em;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #2468b1;
+}
+
+.coveo-card-layout.CoveoResult {
+  border-style: none;
+}
+
+.coveo-card-layout.CoveoResult .coveo-result-frame {
+  padding: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #2468b1;
+  border-width: 3px;
+  background-color: white;
+}
+
+.coveo-facet-column {
+  max-width: 250px;
+}
+
+.facet, .coveo-search-section .CoveoSearchButton {
+  background-color: #2468b1;
+}
+
+.coveo-slider-button, .coveo-range-button, .CoveoFacetSlider.coveo-disabled .coveo-slider-button, .coveo-facet-search-results {
+  background-color: #1d538e;
+}
+
+.facet .coveo-facet-header, .coveo-facet-more, .coveo-facet-less, .coveo-more-background-svg {
+  background-color: #1d538e;
+}
+
+.coveo-slider-container.coveo-with-graph svg .coveo-bar.coveo-active {
+  fill: white;
+}
+
+.coveo-facet-value.coveo-with-hover:hover, .coveo-facet-value.coveo-with-hover.coveo-focuse {
+  background-color: #1d538e;
+}
+
+.coveo-search-button-svg, .coveo-facet-value-caption, .coveo-facet-header-title, .coveo-facet-more-icon-svg, .coveo-facet-settings-more-svg, .coveo-or-and-svg, .coveo-facet-value-count, .coveo-facet-more-icon-svg, .coveo-facet-less-icon-svg, .coveo-more-background-svg, .coveo-slider-caption, .coveo-slider-line, .CoveoQuerySummary, .CoveoSort, .coveo-sort-icon-descending-svg, .coveo-sort-icon-ascending-svg, .coveo-facet-header-eraser-svg, .coveo-accessible-button, .coveo-facet-breadcrumb-value.coveo-selected *, .coveo-facet-slider-breadcrumb-value.coveo-selected *, .coveo-facet-breadcrumb-value-list-item.coveo-selected *, .coveo-facet-breadcrumb-clear, .coveo-facet-breadcrumb-title, .coveo-facet-slider-breadcrumb-value.coveo-selected *, .coveo-facet-slider-slider-breadcrumb-value.coveo-selected *, .coveo-facet-slider-breadcrumb-value-list-item.coveo-selected *, .coveo-facet-slider-breadcrumb-clear, .coveo-facet-slider-breadcrumb-title, .coveo-facet-breadcrumb-value, .coveo-facet-slider-breadcrumb-value, .coveo-facet-breadcrumb-value-list-item {
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+.pokemon-image-container {
+  text-align: center;
+  padding: auto;
+  display: flex;
+}
+
+.pokemon-image {
+  display: inline-block;
+}
+
+.pokemon-image img {
+  max-width: 100%;
+  max-height: 200px;
+  display: block;
+  width: auto;
+  height: auto;
+}

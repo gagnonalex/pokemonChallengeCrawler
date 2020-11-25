@@ -1,0 +1,18 @@
+{
+    "addOrUpdate": [
+        {
+            "nationalnumber": "",
+            "name": "",
+            "type": "",
+            "generation": "",
+            "species": "",
+            "heightm": "",
+            "heightft": "",
+            "weightkg": "",
+            "weightlbs": "",
+            "abilities": "",
+            "localnumbers": "",
+            "documentId": ""
+        }
+    ]
+}
